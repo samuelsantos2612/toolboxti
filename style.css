@@ -1,0 +1,268 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+#planos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.plan {
+    background-color: #ffffff;
+    border: 2px solid #000003;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #000003;
+    font-size: 28px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    width: 30%;
+    margin: 10px;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.btn a {
+    background-color: #000003;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    transition: .5s ease;
+}
+
+.btn a:hover {
+    border-radius: 50px;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    background-color: #fff;
+    box-shadow: 0 0 8px 1px #000003;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list .nav-item{
+    height: 70%;
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+.nav-list .nav-item:hover{
+    background-color: #0000001f;
+}
+
+.nav-item a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    
+}
+.txt-inicial{
+    width: 90%;
+    overflow: hidden;
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.btn{
+    width: 50%;
+    height: 10%;
+    background-color: #000003;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#html{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content-img{
+    width: 80%;
+    height: 60%;
+}
+.content-img img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.ttl{
+    margin-top: 50px;
+    width: 100%;
+    height: 10%;
+}
+.row{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.sales{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+#css{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;;
+}
+#javascript{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#node{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -1px 8px 1px #000003;
+    z-index: 999;
+}
+
+.tool{
+    height: 100%;
+    display: flex;
+    justify-content: center
+
+}

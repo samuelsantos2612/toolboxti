@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box; /* Garante que padding e border sejam incluídos nas dimensões de largura e altura dos elementos */
+  margin: 0; /* Remove a margem padrão de todos os elementos */
+  padding: 0; /* Remove o padding padrão de todos os elementos */
+  font-family: Arial, sans-serif; /* Define a fonte padrão como Arial, e se não estiver disponível, usa uma fonte sans-serif */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent; /* Tornando o fundo totalmente transparente */
+}
+.form-container {
+  width: 100%; /* Define a largura do contêiner como 100% do elemento pai */
+  max-width: 400px; /* Define uma largura máxima de 400px para o contêiner */
+  background-color: #c4c4c4; /* Define uma cor de fundo clara e translúcida para o formulário */
+  color: #0f0a0a; /* Define a cor do texto como um tom de preto/escuro */
+  padding: 20px; /* Adiciona um espaçamento interno de 20px em todos os lados do contêiner */
+  border: 3px solid black;
+  border-radius: 8px; /* Arredonda os cantos do contêiner com um raio de 8px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor do contêiner */
+}
+
+h2 {
+  margin-bottom: 15px; /* Adiciona um espaçamento abaixo do título */
+  color: #333; /* Define a cor do título como um tom escuro de cinza */
+  text-align: center; /* Centraliza o título horizontalmente */
+}
+
+label {
+  margin-bottom: 5px; /* Adiciona um pequeno espaçamento abaixo do rótulo */
+  font-weight: bold; /* Deixa o texto do rótulo em negrito */
+  color: #333; /* Define a cor do rótulo como um tom escuro de cinza */
+}
+
+input, textarea {
+  width: 100%; /* Faz com que os campos de entrada (input) e a área de texto (textarea) ocupem 100% da largura do contêiner */
+  padding: 10px; /* Adiciona um espaçamento interno de 10px aos campos */
+  margin: 10px 0 20px; /* Adiciona margens acima e abaixo dos campos, com maior margem inferior */
+  border: 1px solid #000000; /* Define uma borda cinza clara ao redor dos campos */
+  border-radius: 5px; /* Arredonda os cantos dos campos de entrada e da área de texto */
+}
+
+button {
+  width: 100%; /* Faz com que o botão ocupe 100% da largura do contêiner */
+  padding: 10px; /* Adiciona um espaçamento interno de 10px no botão */
+  background-color: #000000; /* Define a cor de fundo do botão como um verde */
+  color: #fff; /* Define a cor do texto do botão como branco */
+  border: none; /* Remove a borda padrão do botão */
+  border-radius: 5px; /* Arredonda os cantos do botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar o mouse sobre o botão */
+}
+
+.esp{
+  height: 4px;
+}
+
+.VOLTAR{
+  width: 100%; 
+  padding: 9px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #000000; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  text-decoration: none;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #000000; /* Muda a cor de fundo do botão quando o cursor está sobre ele, criando um efeito de hover */
+}
+
+#status {
+  text-align: center; /* Centraliza o texto de status horizontalmente */
+  margin-top: 15px; /* Adiciona um pequeno espaçamento acima do status */
+  font-size: 1rem; /* Define o tamanho da fonte do texto de status como 1rem (tamanho padrão de fonte) */
+}
